@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   hash.each_with_object(pigeon_list) do |(key,element), pigeon_list|
     element.each do |key2, element2|
       element2.each do |name|
-        
+        if(!pigeon_list[name])
       end 
     end 
   end 
