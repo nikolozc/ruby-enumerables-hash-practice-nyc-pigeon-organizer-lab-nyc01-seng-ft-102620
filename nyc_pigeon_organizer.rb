@@ -3,9 +3,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   #Put all names in the hash 
   data.each do |key, element|
-    if(!pigeon_list.includes?(key))
-      pigeon_list<<(key)
-    end 
+    
   end 
   
 end
