@@ -6,6 +6,8 @@ def nyc_pigeon_organizer(data)
     element.each do |key2, element2|
       element2.each do |name|
         if(!pigeon_list[name])
+          s 
+        end 
       end 
     end 
   end 
