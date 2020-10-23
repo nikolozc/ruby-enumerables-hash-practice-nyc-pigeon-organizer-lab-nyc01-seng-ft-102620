@@ -14,7 +14,9 @@ def nyc_pigeon_organizer(data)
   #add tier1 key,values
   pigeon_list.each do |key|
     data.each do |keyD,elementD|
-      key[key]
+      key[keyD] = []
     end 
   end 
+  
+  #
 end
