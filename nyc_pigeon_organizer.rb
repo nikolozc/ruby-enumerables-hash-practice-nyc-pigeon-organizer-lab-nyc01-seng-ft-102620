@@ -1,8 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
-  
-  pigeon_list = {}
-  data.each_with_object({}) do |(key,element), pigeon_list|
+  pigeon_list = data.each_with_object({}) do |(key,element), pigeon_list|
     element.each do |key2, element2|
       element2.each do |name|
         if(!pigeon_list[name])
